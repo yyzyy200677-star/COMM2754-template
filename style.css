@@ -1,16 +1,16 @@
 body {
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
-    background: #f5f6fa;
+    background: #f6f7fb;
     color: #222;
     line-height: 1.6;
 }
 
 header {
-    background: linear-gradient(135deg, #1d1f3f, #4b3f8f);
+    background: linear-gradient(135deg, #25264f, #5b4aa5);
     color: white;
     text-align: center;
-    padding: 60px 20px;
+    padding: 65px 20px;
 }
 
 header h1 {
@@ -21,19 +21,21 @@ header h1 {
 header p {
     margin-top: 12px;
     font-size: 18px;
-    color: #dddaf8;
+    color: #ece9ff;
 }
 
 nav {
-    background: #2f2d5c;
+    background: white;
     display: flex;
     justify-content: center;
-    gap: 35px;
+    gap: 38px;
     padding: 16px;
+    border-bottom: 1px solid #e3e4eb;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
 }
 
 nav a {
-    color: white;
+    color: #403a78;
     text-decoration: none;
     font-weight: bold;
     font-size: 16px;
@@ -41,49 +43,49 @@ nav a {
 }
 
 nav a:hover {
-    color: #cfc8ff;
+    color: #7a68d8;
 }
 
 main {
     max-width: 950px;
-    margin: 40px auto;
+    margin: 42px auto;
     padding: 0 20px;
 }
 
 section {
-    margin-bottom: 40px;
+    margin-bottom: 42px;
 }
 
 h2 {
     font-size: 28px;
     margin-bottom: 15px;
-    color: #2f2d5c;
+    color: #2d2d3a;
 }
 
 .card {
     background: white;
-    padding: 25px;
+    padding: 26px;
     margin-bottom: 22px;
     border-radius: 14px;
-    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.07);
     transition: transform 0.2s, box-shadow 0.2s;
 }
 
 .card:hover {
     transform: translateY(-4px);
-    box-shadow: 0 10px 24px rgba(0, 0, 0, 0.12);
+    box-shadow: 0 10px 24px rgba(0, 0, 0, 0.11);
 }
 
 .card h3 {
     margin-top: 0;
-    color: #4b3f8f;
+    color: #51459a;
 }
 
 .card a {
     display: inline-block;
     margin-top: 10px;
     text-decoration: none;
-    background: #4b3f8f;
+    background: #51459a;
     color: white;
     padding: 9px 14px;
     border-radius: 8px;
@@ -92,11 +94,11 @@ h2 {
 }
 
 .card a:hover {
-    background: #6a5acd;
+    background: #6d5dc7;
 }
 
 footer {
-    background: #1d1f3f;
+    background: #25264f;
     color: white;
     text-align: center;
     padding: 20px;
